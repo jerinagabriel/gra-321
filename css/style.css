@@ -4,9 +4,6 @@ background-color: #white;
 
 body {background-color: #ccccff;}
 
-p:hover, h1:hover, a:hover {
-  background-color: yellow;
-}
 
 .sansserif {
   font-family: Arial, Helvetica, sans-serif;
