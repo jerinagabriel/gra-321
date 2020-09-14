@@ -6,6 +6,23 @@ h1 {
 
 }
 
+.container {
+  background-image:
+    url(https://images.pexels.com/photos/1207875/pexels-photo-1207875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+}
+
+h1 {
+  color: #fff;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+  top:200px
+}
+
 button {
   padding: 15px 25px;
   font-size: 24px;
@@ -27,22 +44,13 @@ box-shadow: 0 5px #666;
 transform: translateY(4px);
 }
 
-.container {
-  background-image:
-    url(https://images.pexels.com/photos/1207875/pexels-photo-1207875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background-size: cover;
-  height:700px;
-  margin: 0 auto;
-  width:50%;
 
-}
 
 h1 {
   color: #fff;
   font-size:52px;
   position:relative;
   text-align:center;
-
 }
 
 
