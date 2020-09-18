@@ -54,21 +54,18 @@ h1 {
 }
 
 
-
-@media screen and (max-width: 1440px) {
-  body {
+.magic{
     background-color: #ff99ff;
 }
-}
-
-@media screen and (max-width: 1000px) {
-  body {
+@media screen and (max-width: 1000px)
+{
+.magic{
     background-color: #cc99ff;
 }
 }
-
-@media screen and (max-width: 500px) {
-  body {
+@media screen and (max-width: 500px)
+{
+.magic{
     background-color: #99ccff;
 }
 }
