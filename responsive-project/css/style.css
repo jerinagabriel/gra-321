@@ -1,7 +1,93 @@
-* {
+* {}
 
-}
+a:link {
+    text-decoration: underline;
+    color: #C37A46;
+  }
+
+.anchors{
+  text-decoration: underline;
+color: ##707070;}
 
 h1 {
+font-family: 'Sansita Swashed', cursive;
+font-size: 52px;
+color:#965B35;
+}
 
+h2 {
+font-family: 'Poppins', sans-serif;
+font-size: 26px;
+font-weight: bold;
+color:#406E7C;
+}
+
+h3 {
+font-family: 'Poppins', sans-serif;
+font-size: 26px;
+color:#707070;
+}
+
+p {
+font-family: 'Poppins', sans-serif;
+font-size: 19px;
+color:#707070;
+}
+
+.brown {
+font-family: 'Poppins', sans-serif;
+font-size: 19px;
+color:#AF8F69;
+}
+
+.lightbrown{
+color:#F4EEDA;
+}
+
+.toffee{
+  color:#C37A46
+}
+
+.crop {
+  width: 320px;
+  height: 452px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.crop2 {
+  width: 320px;
+  height: 371px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.columns {
+  width:100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#rectangle1{
+    width:350px;
+    height:596px;
+    background:#262219;
+}
+
+#rectangle2{
+    width:350px;
+    height:944px;
+    background:#262219;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width:400px){
+  .column-block {
+    width: 40%;
+  }
 }
