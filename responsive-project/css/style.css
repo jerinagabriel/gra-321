@@ -1,69 +1,54 @@
 * {}
 
-a:link {
-    text-decoration: underline;
-    color: #C37A46;
-  }
+html {
+  box-sizing: border-box;
+}
 
-.anchors{
+a:link {
   text-decoration: underline;
-color: ##707070;}
+  color: #C37A46;
+}
+
+.anchors {
+  text-decoration: underline;
+  color: ##707070;
+}
 
 h1 {
-font-family: 'Sansita Swashed', cursive;
-font-size: 52px;
-color:#965B35;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 52px;
+  color: #965B35;
 }
 
 h2 {
-font-family: 'Poppins', sans-serif;
-font-size: 26px;
-font-weight: bold;
-color:#406E7C;
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #406E7C;
 }
 
 h3 {
-font-family: 'Poppins', sans-serif;
-font-size: 26px;
-color:#707070;
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  color: #707070;
 }
 
 p {
-font-family: 'Poppins', sans-serif;
-font-size: 19px;
-color:#707070;
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  color: #707070;
 }
 
-.brown {
-font-family: 'Poppins', sans-serif;
-font-size: 19px;
-color:#AF8F69;
+.hot {
+  width: 100%;
 }
 
-.lightbrown{
-color:#F4EEDA;
-}
-
-.toffee{
-  color:#C37A46
-}
-
-.crop {
-  width: 320px;
-  height: 452px;
-  overflow: hidden;
-  object-fit: cover;
-}
-
-.crop2 {
-  width: 320px;
-  height: 371px;
-  overflow: hidden;
-  object-fit: cover;
+#menu img{
+  width:100%;
 }
 
 .columns {
-  width:100%;
+  width: 85%;
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
@@ -73,21 +58,87 @@ color:#F4EEDA;
   position: relative;
 }
 
-#rectangle1{
-    width:350px;
-    height:596px;
-    background:#262219;
+.columns_brown {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
-#rectangle2{
-    width:350px;
-    height:944px;
-    background:#262219;
+.locations_title {
+  width: 85%;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+.locations_addy {
+  margin: 10px 10px 40px 0px;
+}
+
+.locations_and_hours {
+  background-color: #262219
+}
+
+.locations_and_hours p {
+  color: #AF8F69;
+}
+
+.locations_and_hours H1 {
+  color: #F4EEDA;
+}
+
+.locations_and_hours a:link {
+  color: #C37A46;
+}
+
+.reviews_title{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.reviews_quotes {
+  padding: 10px 10px;
+}
+
+.reviews {
+  background-color: #262219
+}
+
+.reviews p {
+  color: #AF8F69;
+}
+
+.reviews H1 {
+  color: #F4EEDA;
+}
+
+
+
+.nav-bar: first-child, .nav-bar: first-child {
+  padding: 10px 0px;
 }
 
 /* Desktop Styles */
-@media only screen and (min-width:320px){
+@media only screen and (min-width:500px) {
   .column-block {
-    width: 40%;
+    width: 50%;
   }
-}
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-bar: first-child, .nav-bar: first-child {
+    padding: 0px 0px;
+  }
+  .hot:{
+    display:flex;
+    display:inline-block;
+    width:50%;
+  }
+  #menu img{
+    width:30%;
+  }
