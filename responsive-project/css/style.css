@@ -110,7 +110,7 @@ p {
   color: #C37A46;
 }
 
-.reviews_title {
+.reviews_title{
   width: 85%;
   margin: 50px 20px 20px 20px;
 }
@@ -176,8 +176,6 @@ p {
   .mini-columns {
     width: 48%;
   }
-
-
 
   .nav-bar {
     display: flex;
