@@ -58,24 +58,20 @@ p {
   width: 100%;
 }
 
-.columns {
-  width: 85%;
-  max-width: 1440px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
 
 .column-one img {
   width: 100%;
 }
 
-.column-block-two {
-  margin: 0px 20px 0px 0px;
+.column-one  {
+  width: 100%;
 }
+
+.column-two {
+  padding: 15px;
+}
+
+
 
 .columns_brown {
   width: 100%;
@@ -87,7 +83,6 @@ p {
   justify-content: space-between;
   position: relative;
 }
-
 
 .locations_title {
   width: 85%;
@@ -154,12 +149,11 @@ p {
   }
 
   .column-one {
-    width: 40%;
+    width: 30%;
   }
 
   .column-two {
-    width: 50%;
-    padding: 15px;
+    width: 60%;
     display: flex;
     justify-content: space-between;
   }
@@ -171,17 +165,19 @@ p {
     justify-content: space-between;
   }
 
+  .column-seven {
+    width: 40%;
+  }
+
+  .column-eight {
+    width: 40%;
+  }
 
   .mini-columns {
     width: 48%;
   }
 
-  .column-block {
-    width: 50%;
-    display: flex;
-    display: inline-block;
-    ;
-  }
+
 
   .nav-bar {
     display: flex;
