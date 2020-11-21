@@ -38,15 +38,15 @@ p {
   color: #707070;
 }
 
-.logo{
+.logo {
   margin: 0px 0px 20px 20px;
 }
 
-.first-img{
+.first-img {
   margin: 0px 0px 50px 0px;
 }
 
-.nav-bar{
+.nav-bar {
   padding: 20px;
 }
 
@@ -54,8 +54,8 @@ p {
   width: 100%;
 }
 
-#menu img{
-  width:100%;
+#menu img {
+  width: 100%;
 }
 
 .columns {
@@ -69,7 +69,11 @@ p {
   position: relative;
 }
 
-.column-block-two{
+.column-one img {
+  width: 100%;
+}
+
+.column-block-two {
   margin: 0px 20px 0px 0px;
 }
 
@@ -83,6 +87,7 @@ p {
   justify-content: space-between;
   position: relative;
 }
+
 
 .locations_title {
   width: 85%;
@@ -110,7 +115,7 @@ p {
   color: #C37A46;
 }
 
-.reviews_title{
+.reviews_title {
   width: 85%;
   margin: 50px 20px 20px 20px;
 }
@@ -132,35 +137,72 @@ p {
   color: #F4EEDA;
 }
 
-
-
 .nav-bar: first-child, .nav-bar: first-child {
   padding: 10px 0px;
 }
 
 /* Desktop Styles */
 @media only screen and (min-width:500px) {
+  .hot-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cold-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column-one {
+    width: 40%;
+  }
+
+  .column-two {
+    width: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column-three {
+    width: 60%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .mini-columns {
+    width: 48%;
+  }
+
   .column-block {
     width: 50%;
-    display:flex;
-    display:inline-block;;
+    display: flex;
+    display: inline-block;
+    ;
   }
+
   .nav-bar {
     display: flex;
     justify-content: space-around;
   }
+
   .nav-bar: first-child, .nav-bar: first-child {
     padding: 0px 0px;
   }
-  .hot:{
-    display:flex;
-    display:inline-block;
-    width:50%;
+
+  .hot: {
+    display: flex;
+    display: inline-block;
+    width: 50%;
   }
-  #menu img{
-    width:50%;
+
+  #menu img {
+    width: 50%;
   }
-  .logo{
+
+  .logo {
     width: 320px;
   }
 }
