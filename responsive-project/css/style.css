@@ -70,6 +70,11 @@ p {
   padding: 15px;
 }
 
+.column-six {
+  padding: 15px;
+}
+
+
 .columns_brown {
   width: 100%;
   max-width: 1440px;
@@ -170,6 +175,11 @@ p {
     margin: 10px 10px 90px 0px;
   }
 
+  .column-six #iframe {
+    height: 400px;
+    width: 635;
+  }
+
   .reviews_quotes {
     display: flex;
     justify-content: space-between;
@@ -177,7 +187,7 @@ p {
   }
 
   .reviews {
-    margin: 30px 10px 0px 0px;
+    margin: 30px 10px 90px 0px;
   }
 
   .column-seven {
