@@ -117,10 +117,6 @@ p {
   margin: 3px 20px 20px 20px;
 }
 
-.reviews_quotes {
-  padding: 10px 10px;
-}
-
 .reviews {
   background-color: #262219;
   padding: 20px;
@@ -181,14 +177,22 @@ p {
     width: 635;
   }
 
+  .reviews_title {
+    margin-left: 90px;
+  }
+
   .reviews_quotes {
     display: flex;
     justify-content: space-between;
-    margin: 10px 10px 10px 20px;
+    margin: 10px 10px 10px 90px;
   }
 
   .reviews {
-    margin: 30px 10px 30px 90px;
+    margin: 30px 10px 30px 0px;
+  }
+
+  .reviews img {
+    margin-left: 90px;
   }
 
   .column-seven {
