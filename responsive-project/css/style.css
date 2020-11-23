@@ -50,28 +50,25 @@ p {
   padding: 20px;
 }
 
-.hot {
-  width: 100%;
+.hot-menu img {
+  margin: 10px 0px 30px 0px;
 }
 
 #menu img {
   width: 100%;
 }
 
-
 .column-one img {
   width: 100%;
 }
 
-.column-one  {
+.column-one {
   width: 100%;
 }
 
 .column-two {
   padding: 15px;
 }
-
-
 
 .columns_brown {
   width: 100%;
@@ -110,9 +107,9 @@ p {
   color: #C37A46;
 }
 
-.reviews_title{
+.reviews_title {
   width: 85%;
-  margin: 50px 20px 20px 20px;
+  margin: 3px 20px 20px 20px;
 }
 
 .reviews_quotes {
@@ -121,7 +118,7 @@ p {
 
 .reviews {
   background-color: #262219;
-  padding: 10px 10px;
+  padding: 20px;
 }
 
 .reviews p {
@@ -141,6 +138,10 @@ p {
   .hot-menu {
     display: flex;
     justify-content: space-between;
+  }
+
+  .hot-menu img {
+    margin: 90px 90px 90px 90px;
   }
 
   .cold-menu {
@@ -165,6 +166,20 @@ p {
     justify-content: space-between;
   }
 
+  .locations_addy {
+    margin: 10px 10px 90px 0px;
+  }
+
+  .reviews_quotes {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 20px;
+  }
+
+  .reviews {
+    margin: 30px 10px 0px 0px;
+  }
+
   .column-seven {
     width: 40%;
   }
@@ -175,6 +190,7 @@ p {
 
   .mini-columns {
     width: 48%;
+    margin-right: 150px;
   }
 
   .nav-bar {
