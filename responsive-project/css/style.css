@@ -130,6 +130,11 @@ p {
   color: #F4EEDA;
 }
 
+.reviews_quotes {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 10px 3px;
+}
 .nav-bar: first-child, .nav-bar: first-child {
   padding: 10px 0px;
 }
@@ -182,8 +187,6 @@ p {
   }
 
   .reviews_quotes {
-    display: flex;
-    justify-content: space-between;
     margin: 10px 10px 10px 90px;
   }
 
