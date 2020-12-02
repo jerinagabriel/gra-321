@@ -42,6 +42,11 @@ p {
   margin: 0px 0px 20px 20px;
 }
 
+.socials{
+  padding: 10px;
+  width: 90px;
+}
+
 .first-img {
   margin: 0px 0px 50px 0px;
 }
@@ -140,7 +145,7 @@ p {
 }
 
 /* Desktop Styles */
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:650px) {
   .hot-menu {
     display: flex;
     justify-content: space-between;
@@ -177,9 +182,9 @@ p {
     margin: 10px 10px 90px 0px;
   }
 
-  .column-six #iframe {
+  .map {
     height: 400px;
-    width: 635;
+    width: 550;
   }
 
   .reviews_title {
